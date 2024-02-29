@@ -22,3 +22,5 @@ public class MyCalcTest extends Calc {
 		System.out.println(myCalc.mul(20, 20));
 	} 
 }
+
+//	자식은 부모꺼를 가져올 수 있지만, 부모는 자식꺼를 가져오지 못한다. 
