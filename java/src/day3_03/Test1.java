@@ -39,7 +39,6 @@ class 렌트카 {
 	}
 	
 	public 렌트카() {
-		
 	}
 }
 
@@ -48,9 +47,12 @@ public class Test1 {
 		렌트카 r1 = new 렌트카();
 		렌트카 r2 = new 렌트카(2000L);
 		렌트카 r3 = new 렌트카("기아", 2000L);
+		렌트카 r4 = new 렌트카("기아");
+
 		
 		System.out.println(r1);
 		System.out.println(r2);
 		System.out.println(r3);
+		System.out.println(r4);
 	}
 }

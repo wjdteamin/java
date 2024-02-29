@@ -3,6 +3,9 @@ package day4_04;
 import java.util.*;
 
 // 추상 메소드로만 구성된 순수한 설계도를 인터페이스라고 한다
+// 추상 클래스 : 추상 메소드를 포함하는 클래스
+// 인터페이스는 추상 메소드만 가지는 일종의 클래스 
+// 						extends 대신에 implements 키워드를 사용한다. 
 interface Shape {
 	abstract void draw();
 }
@@ -31,8 +34,8 @@ public class 추상메소드Test4 {
 		list.add(new Circle());
 		list.add(new Rect());
 		list.add(new Triangle());
-		
-		for(Shape s:list) {
+
+		for (Shape s : list) {
 			s.draw();
 		}
 	}
